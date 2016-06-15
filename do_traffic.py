@@ -9,12 +9,13 @@ tr = Traffic.QNTraffic()
 bl = Billing.QNBilling()
 
 
-uid="1380662347"
+uid="1380267848"
+
+
 st="2016-05-01"
 et="2016-06-01"
-#domain="fotadown.mayitek.com"
-rs = tr.GetBandwidthByUid(uid,st,et,savefile=True)
-#print bl.SumTraffic(uid,st,et,savefile=True)
+print bl.Month95PerByUid(uid,st,et,savefile=True)
+
 #print rs
 #va = bl.SumTraffic(uid,st,et)
 #print va
