@@ -110,11 +110,11 @@ class DomainManager():
 
 
 if __name__ == '__main__':
-    ak = 'Tc3iKoKxu76LJCDF72fuDVbbF1FywfpMkAlyzBQ0'
-    sk = 'pCYt6gXcEVv7lxC71uqXyXvG-7F7YpkL7sJVI0Bj'
+    ak = ''
+    sk = ''
 
-    accessKey = 'Rp-xCNSXMcymNzvOoRO6hEJj8wwRfaGs5HbXiLvi'
-    secretKey = '8wsdGD4chIHIckLT21A7vbXV29JVMpQlG7q3Enpk'
+    accessKey = ''
+    secretKey = ''
 
     dm = DomainManager(accessKey, secretKey)
     #print(dm.GetDomains())
